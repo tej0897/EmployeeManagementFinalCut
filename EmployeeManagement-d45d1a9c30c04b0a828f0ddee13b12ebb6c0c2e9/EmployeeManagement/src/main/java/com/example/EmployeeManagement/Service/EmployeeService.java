@@ -13,5 +13,7 @@ public interface EmployeeService {
     public boolean validateEmployee(String empName, String password);
 
     public Employee findEmpByID(int empID);
+
+
 }
 
